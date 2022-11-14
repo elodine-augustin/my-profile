@@ -1,0 +1,103 @@
+body{
+	text-align: center;
+	font-family:'Lora', serif;
+	text-decoration: none;
+	background-color: lightyellow;
+	font-weight: 600;
+	font-size: 16px;
+}
+h1{
+	text-decoration: none;
+	color: brown;
+	border: 10px solid brown;
+	height: 50px;
+
+
+}
+h3 {
+	text-decoration: underline;
+	color: (90, 90, 90);
+}
+
+/* Custom design with class*/
+
+.container{
+	width: 900px;
+	margin: 40px auto;
+}
+
+@media (max-width: 760px){
+	
+	.container {
+		width: 600px;
+	}
+}
+
+
+@media (max-width: 500px){
+	
+	.container {
+		width: 400px;
+	}
+}
+
+
+
+
+.card-White{
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 70px;
+	text-align: center;
+}
+
+.img-circle{
+	border-radius: 50%; 
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px; 
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+a {
+	color: red;
+}
+
+.matete{
+	height: 250px;
+	width: 200px;
+}
+
+#cv{
+	height: 650px;
+	width: 500px;
+}
+
+#bouton{
+	padding: 2%;
+	background-color: yellow;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	margin-top: 20px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+.flex{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+
+
+
